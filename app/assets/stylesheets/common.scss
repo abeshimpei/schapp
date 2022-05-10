@@ -1,0 +1,106 @@
+header {
+    width: 100%;
+    padding: 10px ;
+    background-color: rgba(255, 145, 0, 0.865);
+    color: white;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+.main_container {
+    margin: 50px 15px;
+}
+
+.infomation {
+    display: block;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #fffb00;
+    border: solid 1px;
+    padding: 10px 20px;
+
+}
+
+td{
+    background-color: #d9ff0061;
+    text-align: center;
+    border: solid 1px;
+    padding: 10px 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px ;
+    background-color: rgba(255, 145, 0, 0.865);
+    color: white;
+    margin: 0px;
+    display: block;
+}
+
+.mgr-10 {
+    margin-right : 30px;
+    
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    
+}
+
+input[type="date"]{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    
+}
+
+input[type="checkbox"]{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    
+}
+
+input[type="submit"]{
+    width: auto;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.textbox{
+    width: 350px;
+    height: 200px;
+    font-size: 16px;
+}
+
+.alert{
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.alert__success {
+    background-color: rgb(0, 248, 211);
+    padding: 10px;
+}
